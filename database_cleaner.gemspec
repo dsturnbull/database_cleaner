@@ -1,14 +1,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{database_cleaner}
+  s.name = %q{dsturnbull-database_cleaner}
   s.version = "0.2.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Ben Mabey"]
+  s.authors = ["Ben Mabey", "David Turnbull"]
   s.date = %q{2009-10-01}
   s.description = %q{Strategies for cleaning databases.  Can be used to ensure a clean state for testing.}
-  s.email = %q{ben@benmabey.com}
+  s.email = %q{dsturnbull@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.textile"
@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
      "spec/spec_helper.rb"
   ]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/bmabey/database_cleaner}
+  s.homepage = %q{http://github.com/dsturnbull/database_cleaner}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.2}
